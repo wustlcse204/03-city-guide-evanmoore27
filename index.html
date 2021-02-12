@@ -1,1 +1,133 @@
+<!doctype html>
+<html lang="en">
 
+<head>
+    <title>Tour of Chicago</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Chicago Guide"  />
+<!--Adds information for search engines-->
+</head>
+
+<body>
+    <form>
+        <div class="loginform" id="loginform">
+        <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username">  
+            <br>
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password">  
+            <br>
+            <button type="submit">Login</button>
+        </div>  
+    </form>
+    <div class="navigation" id="navigation">
+        <nav>
+            <a href=#millenniumpark>Millenium Park</a>
+            <a href=#soldierfield>Soldier Field</a>
+            <a href=#artinstitute>Art Institute of Chicago</a>
+            <a href=#fieldmuseum>Field Museum of Natural History</a>
+        </nav>
+    </div>
+
+<!--Navigation added to each individual attraction, div id used to link sections-->
+
+    <div class="title" id="title">
+        <h1>The Definitive Guide to Chicago</h1>
+    </div>
+    <div class="mission" id="mission">
+        <h2>Mission</h2>
+    </div>
+    <p>The function of this website is to show you around some of the coolest spots in my favorite city, Chicago. Let's
+        move on
+        to the fun part!
+    </p>
+    <hr>
+    <div class="millenniumpark" id="millenniumpark">
+        <h2>Millennium Park</h2>
+        <img src="images/millenniumpark.jpg" width=650 alt="Photo of Millennium Park from above">
+        <p>
+            Not exactly a deep cut, this is Chicago's second-most popular tourist attraction behind Navy
+            Pier -- and for
+            good reason. Standing on a 24.5 acre plot of land in northwestern Grant Park, Millennium Park offers a
+            wide
+            variety of attractions. A pair of massive, LED-covered obelisks form a fountain simulating the spit of
+            giant
+            faces from the LED screens. The BP Pedestrian Bridge gives park-goers a little exercise with
+            breathtaking
+            views of the architecture of Chicago, and live music rings out throughout the summers. Millennium Park
+            is typically open from 6:00 AM to 11:00 PM 7 days a week.
+        </p>
+        <figure>
+            <img src="images/crownfountain.jpg" width=650 alt="Crown Fountain in Millennium Park">
+
+            <figcaption>Crown Fountain in Millennium Park</figcaption>
+        </figure>
+    </div>
+    <hr>
+    <div class="soldierfield" id="soldierfield">
+        <h2>Soldier Field</h2>
+        <img src="images/soldierfield.jpg" width=650 alt="Soldier Field">
+        <p>
+            Soldier field, originally built in 1924, has been the home of Chicago's NFL team the Bears since 1971. It
+            underwent expensive renovation in 2003, but plenty of history still remains. Despite a rocky couple of
+            decades, Bears games are certainly a spectacle worth attending. A number of Chicago Bears names worth watching in the 
+            2021 season are as follows:
+        </p>
+            <ul>
+                <li>Kyle Fuller</li>
+                <li>Roquan Smith</li>
+                <li>David Montgomery</li>
+                <li>Darnell Mooney</li>
+                <li>Jaylon Johnson</li>
+            </ul>
+       
+
+    </div>
+    <hr>
+    <div class="artinstitute" id="artinstitute">
+        <h2>Art Institute of Chicago</h2>
+        <img src="images/artinstitute.jpg" width=650 alt="Art Institute of Chicago">
+        <p>
+            The Art Institute of Chicago, founded as the Chicago Academy of Fine Arts in 1879, holds loads of history within its walls.
+            Its permanent collection has grown to over 300,000 works of art, leading to its worldwide recognition as an institution.
+            The institute added its "Modern Wing" in 2009, its largest expansion to date. Its hours are listed below.
+        </p>
+            <table>
+                <tr>
+                    <td>Monday</td>
+                    <td>Tuesday</td>
+                    <td>Wednesday</td>
+                    <td>Thursday</td>
+                    <td>Friday</td>
+                    <td>Saturday</td>
+                    <td>Sunday</td>
+                </tr>
+                <!--Two rows created, one for weekdays and one for hours-->
+                <tr>
+                    <td>10:30-5:00</td>
+                    <td>10:30-5:00</td>
+                    <td>10:30-8:00</td>
+                    <td>10:30-8:00</td>
+                    <td>10:30-8:00</td>
+                    <td>10:30-5:00</td>
+                    <td>10:30-5:00</td>
+                </tr>
+                </table>
+    </div>
+    <hr>
+    <div class="fieldmuseum" id="fieldmuseum">
+        <h2>Field Museum of Natural History</h2>
+        <img src="images/fieldmuseum.jpg" width=650 alt="Field Museum">
+        <p>
+            The Field Museum of Natural History is one of the largest such museums in the entire world. The museum ranges from 
+            ancient Egyptian artifacts to the entire fossilized skeletons of dinosaurs. This museum is a great attraction for kids
+            and adults alike. In my opinion, this museum paired with the Art Institute of Chicago makes for an incredible day that you
+            can write off as educational. Directions to the Field Museum have been embedded below.
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11883.700882888968!2d-87.62785526261861!3d41.87295531755965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2b7d33304057%3A0xb51220475f7ec7da!2sField%20Museum!5e0!3m2!1sen!2sus!4v1613155635487!5m2!1sen!2sus" width="600" height="450" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <!-- I learned how to embed google maps from geeksforgeeks.org. I simply entered my location into google maps and then copied and pasted
+    from google's own "embed HTML" section.-->
+</body>
+
+</html>
