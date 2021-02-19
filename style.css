@@ -1,0 +1,104 @@
+.image {
+    display: block;
+    width: 50%;  /* sets all images to width of 650px */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    
+}
+p{
+/*width: 50%; /* keeps text same width as images */
+margin-left: 10em;
+margin-right: 10em;
+padding: 0;
+text-align: center;
+}
+table {
+    border: 2px;
+    border-style: solid;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    box-shadow: 10px 5px 5px black;
+}
+.title {
+    text-align: center;
+    color: white;   
+}
+.mission {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+td {
+    padding: 3px;
+}
+.loginform{
+    border: 2px;
+    border-style: solid;
+    width: 25%;
+    box-shadow: 10px 5px 5px black;
+    margin: 10px;
+    margin-top: 130px;
+    padding: 10px;
+}
+#login{
+margin-left: auto;
+margin-right: auto;
+padding: 4px;
+}
+.navigation {
+    width: 100%;
+    position: fixed;
+    background: #B3DDF2;
+    padding: 10px 0;
+    top: 0;
+    margin-bottom: 20px;
+   
+}
+.navigation a{
+    color: #FF0000;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+.playerList{
+    text-align: center;
+    list-style-position: inside;
+    border: 2px;
+    border-style: solid;
+    box-shadow: 10px 5px 5px black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.googleMaps{
+    border: 2px;
+    border-style: solid;
+    width: 150%;
+}
+.fieldmuseum{
+    column-count: 3;
+    column-fill: balance;
+    column-width: 150px;
+    column-gap: 10px;
+}
+#fieldtext{
+    break-after: column;
+    border: 2px;
+    border-style: solid;
+    padding: 5px;
+    box-shadow: 10px 5px 5px black;
+}
+.fieldmuseum img{
+    break-after: column;
+    width: 100%;
+}
+body{
+    overflow: auto;
+    overflow-x: hidden;
+}
+a:hover{
+    color: white;
+}
